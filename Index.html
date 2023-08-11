@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Productivity</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body background="background.jpg">
+    <center> <div id="title_1">
+        <h1>Estimate your PRODUCTIVITY</h1>
+        <h5>Use the sliders to input number of hours <br>
+        you do each of these activities.</h5>
+    </div>
+<br>
+<br>
+<label class="slider_title" id="time_left">Do "Ctrl+Shift+i" to find out how many hours are left to fill</label>
+<br>
+<br>
+<br>
+    <div>
+        <label class="slider_title">Hours taken by sleep</label><br>
+
+        <input type="number" Id="sleep" min="1" max="24"><br><br>
+
+        <label class="slider_title">Hours taken by eating</label><br>
+
+        <input type="number" Id="eating" min="1" max="24" ><br><br>        
+
+        <label class="slider_title">Hours taken by traveling from place to place</label><br>
+
+        <input type="number" id="traveling" min="1" max="24"><br><br>
+
+        <label class="slider_title">Hours taken by work/study</label><br>
+
+        <input type="number" id="work" min="1" max="24"><br><br>
+
+        <label class="slider_title">Hours taken by leisure activities</label><br>
+
+        <input type="number" id="leisure " min="1" max="24"><br><br>    
+
+        <label class="slider_title">Hours taken by sports</label><br>
+
+        <input type="number" id="sports" min="1" max="24"><br><br>
+
+        <label class="slider_title">Hours taken by doing nothing/freetime</label><br>
+
+        <input type="number" id="Freetime" min="1" max="24"><br>
+    </div><br><br>
+<label id="Feedback">.</label><br>
+<button id="calculate" onclick="calc()">Calculate</button></center>
+<script src="main.js"></script>
+</body>
+</html>
